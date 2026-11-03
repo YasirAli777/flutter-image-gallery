@@ -1,17 +1,52 @@
 # image_gallery
 
-A new Flutter project.
+Image Gallery
 
-## Getting Started
+A simple image gallery application built using Flutter and the Picsum Photos API.
 
-This project is a starting point for a Flutter application.
+Features
 
-A few resources to get you started if this is your first Flutter project:
+- Fetch images from the Picsum API.
+- Display images in a grid layout.
+- View individual images.
+- Display image details, including author, ID, width and height.
+- Loading indicator while fetching images.
+- Error handling with retry option.
+- Pull down to refresh the gallery.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Technologies Used
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Dart
+- REST API
+- HTTP package
+- Picsum Photos API
+
+Getting Started
+
+1. Clone this repository.
+2. Open the project folder.
+3. Run the following command:
+
+flutter pub get
+
+4. Start the application:
+
+flutter run or f5
+
+API
+Images are fetched from:
+https://picsum.photos/v2/list?page=1&limit=30
+
+Project Structure
+
+lib/
+|-- models/
+|-- screens/
+|-- services/
+|-- widgets/
+|-- main.dart
+
+Developer
+
+YasirAli777
